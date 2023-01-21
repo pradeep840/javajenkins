@@ -6,7 +6,7 @@ pipeline {
           steps{
 		    echo 'Demo - 1'
                 //sh 'mkdir from-jenkins'
-                sh 'touch from-jenkins/demo.txt'
+                 echo 'hello'
                 }
         }
 
